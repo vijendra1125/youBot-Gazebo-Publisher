@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>youbot_gazebo_publisher</name>
+  <version>0.0.0</version>
+  <description>Sample program</description>
+  <maintainer email="vijendrasingh003@gmail.com">Walter Nowak</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>brics_actuator</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>brics_actuator</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>trajectory_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+
+</package>
