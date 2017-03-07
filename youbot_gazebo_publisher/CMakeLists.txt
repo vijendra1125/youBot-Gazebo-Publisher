@@ -10,15 +10,11 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package()
 
-## System dependencies are found with CMake's conventions
-# find_package(Boost REQUIRED COMPONENTS system)
-
 include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
 add_executable(youbot_gazebo_publisher src/youbot_gazebo_publisher.cpp)
-
 
 target_link_libraries(youbot_gazebo_publisher
   ${catkin_LIBRARIES}
